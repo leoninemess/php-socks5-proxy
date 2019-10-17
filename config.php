@@ -1,0 +1,3 @@
+<?php
+$PROXY_USERNAME = 'lee';
+$PROXY_PASS = '123456';

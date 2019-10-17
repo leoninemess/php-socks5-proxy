@@ -1,0 +1,9 @@
+{
+  "name"  : "lee/socks-proxy",
+  "type"  : "project",
+  "keywords": ["socks5","php"],
+  "license" : "MIT",
+  "require": {
+    "workerman/workerman" : ">=3.3.0"
+  }
+}
