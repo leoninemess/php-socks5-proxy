@@ -5,16 +5,16 @@
 ```
 ├─composer.json
 ├─composer.lock
-├─config.php		//配置文件
-├─log.php			//日志写入方法
-├─proxy.php			//代理脚本
+    ├─config.php		//配置文件
+├─log.php			      //日志写入方法
+├─proxy.php			    //代理脚本
 ├─README.md
 ├─vendor
 |   ├─autoload.php
-|   ├─workerman		//依赖workerman
+|   ├─workerman		  //依赖workerman
 |   ├─composer
 ├─public
-|   ├─log 			//日志目录
+|   ├─log 			    //日志目录
 ```
 ## 使用说明
 * 打开config.php文件配置账号密码。
