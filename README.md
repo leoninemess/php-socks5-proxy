@@ -19,4 +19,8 @@
 ## 使用说明
 * 打开config.php文件配置账号密码。
 * 命令行键入 `php proxy.php start`。如果要在以守护进程后台运行 `php proxy.php start -d`
-* 有请求过来的话日志就会打印在控制台上了。
+* `curl --socks5 127.0.0.1:1090  --proxy-anyauth  -U lee:123456  -v http://example.com/` 有请求过来的话日志就会打印在控制台上了。
+
+## 常见问题
+
+
