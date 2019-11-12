@@ -179,6 +179,14 @@ $worker->onMessage = function ($connection, $msg) {
 
 };
 
+/**
+ * 提取代理地址
+ * @param $buffer
+ * @return array|bool
+ * @api
+ * @author leo
+ * @date-time 2019/11/12-9:54
+ */
 function parse_socks5_header($buffer) {
     $addr_type = ord($buffer[3]);
     switch ($addr_type) {
